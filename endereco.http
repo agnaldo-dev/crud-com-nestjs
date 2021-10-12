@@ -1,0 +1,39 @@
+###
+POST http://localhost:3003/enderecos
+Content-Type: application/json
+
+{
+    "logradouro": "Rua 12 de Maio",
+    "telefone": "998888",
+    "email":"sara@gmail.com",
+    "cidade": "Teresina",
+    "bairro": "São Pedro",
+    "uf": "PI",
+    "numero": 444,
+    "complemento": "Residencial Palmeirais"
+}
+
+###
+GET http://localhost:3003/enderecos/0
+
+
+###
+GET http://localhost:3003/enderecos
+
+###
+DELETE http://localhost:3003/enderecos/5
+
+###
+PUT http://localhost:3003/enderecos/4
+Content-Type: application/json
+
+{
+    "logradouro": "Rua 12 de Maio",
+    "telefone": "3232540",
+    "email":"sara@gmail.com",
+    "cidade": "Teresina",
+    "bairro": "São Pedro",
+    "uf": "PI",
+    "numero": 444,
+    "complemento": "Residencial Palmeirais"
+}

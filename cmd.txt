@@ -1,0 +1,9 @@
+1 - docker-compose up
+2 - docker-compose exec app bash 
+[
+3 - npm i typeorm @nestjs/typeorm --save 
+4 - npm i pg --save 
+5 - npm i @nestjs/config --save 
+6 - npm rum typeorm entity:create -- -n contato 
+7 - nest generate controller controllers/contato 
+]

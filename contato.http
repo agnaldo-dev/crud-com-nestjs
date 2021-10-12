@@ -1,0 +1,33 @@
+###
+POST http://localhost:3003/contatos
+Content-Type: application/json
+
+{
+    "nome": "Ana",
+    "telefone": "31324511",
+    "email": "ana@gmail.com",
+    "assunto": "Vaga de Emprego",
+    "mensagem": "Envio cv para a vaga de vendedor na loja Start"
+}
+
+###
+GET http://localhost:3003/contatos/0
+
+
+###
+GET http://localhost:3003/contatos
+
+###
+DELETE http://localhost:3003/contatos/5
+
+###
+PUT http://localhost:3003/contatos/4
+Content-Type: application/json
+
+{
+    "nome": "Ana",
+    "telefone": "9998755",
+    "email": "ana@gmail.com",
+    "assunto": "Vaga de Emprego",
+    "mensagem": "Envio cv para a vaga de vendedor na loja Start"
+}
